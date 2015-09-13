@@ -10,6 +10,7 @@
     border-radius: 15px 15px 15px 15px;
 }
 #headshot {
+		width: 125px;
 		margin-top: 25px;
 		margin-left: -155px;
 		padding-right: 15px;
