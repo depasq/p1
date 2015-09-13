@@ -1,50 +1,48 @@
-body {
-	font-family: sans-serif;
+.pageTitleBG {
+		box-shadow: 0 0 0.625em #000;
+    position: relative;
+    height: 180px;
+    width: 360px;
+    /*background-color: rgba(0, 142, 208, 0.85);*/
+		background-color: #ccc;
+    margin: auto;
+		margin-bottom: 50px;
+    border-radius: 15px 15px 15px 15px;
 }
-
-h1 {
-	font-family: 'Halant', serif;
-	color: steelblue;
+#headshot {
+		margin-top: 15px;
+		margin-left: -165px;
+		padding-right: 15px;
 }
-
-h2 {
-	font-family: 'Inconsolata';
-	color: #333;
+#linksPos {
+		position: relative;
+		margin-top: -170px;
+		margin-left: 100px;
+		list-style-type: none;
 }
-
-a {
-	color: cadetblue;
+.links {
+		font-family: 'Inconsolata', monospace;
+		font-size: 1em;
+		text-align: left;
 }
-
-
-/*#menu .pure-menu-heading{color: #F2F2F2; background-color: #129191;}
-#menu {background-color: #C9C8C8; width:185px; margin-left:-185px;}
-#menu a{color: #353434; padding-right: 10px;}
-.pure-menu .pure-menu-heading{text-transform: capitalize;}
-#menu .pure-menu ul, #menu .pure-menu .menu-item-divided {border-top: 2px solid #333;}
-@media (min-width:48em) {
-	#layout{padding-left:185px;}
-	#menu{left:185px;}
-	.menu-link{left:185px;}
-	#layout.active #menu {
-        left: 185px;
-        width:185px;
-    }
+.links li {
+		list-style-type: none;
+		margin-bottom: 0.5em;
+		margin-left: 35px;
+		margin-top: 12px;
+		line-height: 0.75em;
 }
-	#layout.active #menu {
-        left: 185px;
-        width:185px;
-    }
-@media (max-width:48em) {
-	#layout.active{
-		left:185px;
+.links li i.fa {
+		margin-right: 1ex;
+		font-size:1.25em;
 	}
+.links a{
+		text-decoration: none;
+		color: rgba(0, 142, 208, 1);
 }
-
-#layout.active .menu-link { left:185px;}
-
-img {box-shadow: 5px 5px 2px #888888;}
-#menu .pure-menu li a:hover {background: none repeat scroll 0% 0% #B0B0B0;}
-#menu .pure-menu li a:focus {background: none repeat scroll 0% 0% #909090;}
-#me {height:35%; width:35%;}
-#thelma {height:20%; width:20%;}*/
+.pure-menu ul li:hover > ul {
+		display: list-item;
+		list-style-type: none;
+		margin-left: -90px;
+		visibility: visible;
+}
