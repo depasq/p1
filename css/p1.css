@@ -3,22 +3,31 @@
     position: relative;
     height: 180px;
     width: 320px;
-    /*background-color: rgba(0, 142, 208, 0.85);*/
 		background-color: #ccc;
     margin: auto;
 		margin-bottom: 50px;
     border-radius: 15px 15px 15px 15px;
+		padding: 2px;
+		padding-left: 8px;
 }
-#headshot {
-		width: 125px;
+.image-cropper {
+    width: 125px;
+    height: 125px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 		margin-top: 25px;
-		margin-left: -155px;
-		padding-right: 15px;
+}
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+		width: auto;
 }
 #linksPos {
 		position: relative;
-		margin-top: -160px;
-		margin-left: 70px;
+		margin-top: -155px;
+		margin-left: 60px;
 		list-style-type: none;
 }
 .links {
@@ -34,7 +43,7 @@
 		line-height: 0.75em;
 }
 .links li i.fa {
-		margin-right: 1ex;
+		margin-right: 0.5ex;
 		font-size:1.25em;
 	}
 .links a{
