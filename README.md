@@ -11,6 +11,7 @@ N/A
 
 ## Details for teaching team
 This page uses PureCSS with additional custom formatting contained in css/p1.css
+
 Some nice icons are used from Font-Awesome
 
 ## Outside code
