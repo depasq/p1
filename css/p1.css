@@ -50,8 +50,11 @@ img {
 		text-decoration: none;
 		color: rgba(0, 142, 208, 1);
 }
-.pure-menu li:hover {
+/*.pure-menu li:hover {
 		background: #ccc;
+}*/
+.ghub{
+		background: #191818;
 }
 .pure-menu ul li:hover > ul {
 		border: 1px solid #fff;
