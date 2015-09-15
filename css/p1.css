@@ -50,9 +50,17 @@ img {
 		text-decoration: none;
 		color: rgba(0, 142, 208, 1);
 }
+.pure-menu li:hover {
+		background: #ccc;
+}
 .pure-menu ul li:hover > ul {
-		display: list-item;
+		border: 1px solid #fff;
+    display: list-item;
 		list-style-type: none;
-		margin-left: -90px;
-		visibility: visible;
+		margin-left: -68px;
+    visibility: visible;
+}
+#menu a{
+	padding: 0.6em;
+	visibility: visible;
 }
